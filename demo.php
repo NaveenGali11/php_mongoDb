@@ -6,6 +6,6 @@
 
     $empdb = $client -> empdb;
 
-    $result = $empdb -> createCollection('title');
+    $result = $empdb -> dropCollection('title');
 
     var_dump($result);
